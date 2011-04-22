@@ -1,0 +1,11 @@
+Package: e1000e-pfring-dkms
+Version: 1.2.17
+Maintainer: Xavier Lange <xavier.lange@viasat.com>
+Architecture: all
+Section: kernel
+Priority: optional
+Pre-Depends: build-essential,
+             dkms,
+             linux-headers-generic
+Depends: pfring-dkms
+Description: PF_RING dkms driver for the Intel Gigabit Ethernet NIC.

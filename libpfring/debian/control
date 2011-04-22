@@ -1,0 +1,14 @@
+Source: libpfring
+Section: net
+Priority: optional
+Maintainer: Xavier Lange <xavier.lange@viasat.com>
+Build-Depends: build-essential, pfring-dkms
+
+Package: libpfring
+Version: 1.0.0
+Maintainer: Xavier Lange <xavier.lange@viasat.com>
+Architecture: i386 amd64
+Section: net
+Priority: optional
+Depends: pfring-dkms
+Description: Userland tools for using the PF_RING DKMS module.

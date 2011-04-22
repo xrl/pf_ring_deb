@@ -1,0 +1,10 @@
+Package: pfring-dkms
+Version: 4.0.0
+Maintainer: Xavier Lange <xavier.lange@viasat.com>
+Architecture: all
+Section: kernel
+Priority: optional
+Pre-Depends: build-essential,
+             dkms,
+             linux-headers-generic
+Description: PF_RING dkms module

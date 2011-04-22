@@ -1,0 +1,9 @@
+Package: libpfring
+Version: 1.0.1-1
+Architecture: i386
+Maintainer: Xavier Lange <xavier.lange@viasat.com>
+Installed-Size: 80
+Depends: pfring-dkms
+Section: net
+Priority: optional
+Description: Userland tools for using the PF_RING DKMS module.

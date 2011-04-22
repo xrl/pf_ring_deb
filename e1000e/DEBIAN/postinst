@@ -1,0 +1,25 @@
+#!/bin/bash
+# postinstall script for forensic toll collection
+#
+# see: dh_installdeb(1)
+set -e
+
+case "$1" in
+configure)
+  dkms add -m e1000e-pf_ring -v 1.2.17
+  dkms build -m e1000e-pf_ring -v 1.2.17
+  dkms install -m e1000e-pf_ring -v 1.2.17
+;;
+
+abort-upgrade|abort-remove|abort-deconfigure)
+;;
+
+*)
+echo "postinst called with unknown argument"
+  exit 1
+;;
+esac
+
+#DEBHELPER
+
+exit 0
