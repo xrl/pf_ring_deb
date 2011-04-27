@@ -1,0 +1,5 @@
+pfring-dkms (4-0.1) squeeze; urgency=low
+
+  * Redoing the packaging with the proper files.
+
+ -- Xavier Lange <xavierlange@pelorus>  Wed, 27 Apr 2011 13:09:28 -0700

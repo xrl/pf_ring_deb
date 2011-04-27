@@ -1,3 +1,9 @@
+Source: pfring-dkms
+Version: 4.0.0
+Maintainer: Xavier Lange <xavier.lange@viasat.com>
+Architecture: all
+Section: kernel
+
 Package: pfring-dkms
 Version: 4.0.0
 Maintainer: Xavier Lange <xavier.lange@viasat.com>
